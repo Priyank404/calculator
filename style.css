@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.main{
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.claculator{
+    background-color: hsl(0, 0%, 15%);
+    font-family: Arial, Helvetica, sans-serif;
+    height: 95vh;
+    border-radius: 25px;
+    max-width: 500px;
+    overflow: hidden;
+}
+
+.display{
+    width: 95%;
+    padding: 20px;
+    font-size: 4.5rem;
+    text-align: right;
+    border: none;
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+    padding-right: 30px;
+}
+
+button{
+    width: 80px;
+    height: 80px;
+    border: none;
+    border-radius: 50%;
+    background-color: hsl(0, 0%, 30%);
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    padding: 25px;
+}
+
+button:hover{
+    background-color: hsl(0, 0%, 40%);
+}
+
+button:active{
+    background-color: hsl(0, 0%, 50%);
+}
+
+.opt{
+    background-color: hsl(35, 100%, 55%);
+}
+
+.opt:hover{
+    background-color: hsl(35, 100%, 65%);
+}
+
+.opt:active{
+    background-color: hsl(35, 100%, 75%);
+}
